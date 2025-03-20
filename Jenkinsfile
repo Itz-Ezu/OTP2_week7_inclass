@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         // Define Docker Hub credentials ID
-        DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
+        DOCKERHUB_CREDENTIALS_ID = 'Docker_hub_id'
         // Define Docker Hub repository name
         DOCKERHUB_REPO = 'itzezu/otp2_week7_inclass'
         // Define Docker image tag
