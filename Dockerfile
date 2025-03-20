@@ -8,7 +8,7 @@ WORKDIR /app
 COPY pom.xml /app/
 
 # Copy the entire project to the container
-COPY Inclass1 /app/
+COPY SEP2_week7_inclass /app/
 
 # Package the application using Maven
 RUN mvn package
